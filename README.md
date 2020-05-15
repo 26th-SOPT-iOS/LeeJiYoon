@@ -92,7 +92,7 @@
 <img width="433" alt="스크린샷 2020-05-15 오후 11 49 09" src="https://user-images.githubusercontent.com/58107794/82063849-f7ba4880-9706-11ea-859d-aa16ee52d5b0.png">
 <img width="416" alt="스크린샷 2020-05-15 오후 11 49 17" src="https://user-images.githubusercontent.com/58107794/82063854-f852df00-9706-11ea-8d36-61070c3e9d3d.png">
 
-- 걍 이렇게 짝꿍끼리 잘 맞춰주면 된다. :smile:
+- 걍 이렇게 짝꿍끼리 잘 맞춰주면 된다. :smile:    
 
 > Difficulty 3
 
@@ -101,7 +101,7 @@
   
 > Solution 3
 
-<img width="444" alt="스크린샷 2020-05-15 오후 11 47 57" src="https://user-images.githubusercontent.com/58107794/82063837-f557ee80-9706-11ea-8d4c-f6d7f1718c62.png">
+<img width="444" alt="스크린샷 2020-05-15 오후 11 47 57" src="https://user-images.githubusercontent.com/58107794/82063837-f557ee80-9706-11ea-8d4c-f6d7f1718c62.png">     
 
 > Difficulty 4 
 
@@ -110,24 +110,24 @@
 
 > Solution 4
 
-<img width="450" alt="스크린샷 2020-05-15 오후 11 47 48" src="https://user-images.githubusercontent.com/58107794/82063835-f4bf5800-9706-11ea-9b65-a796edfa837b.png">
+<img width="450" alt="스크린샷 2020-05-15 오후 11 47 48" src="https://user-images.githubusercontent.com/58107794/82063835-f4bf5800-9706-11ea-9b65-a796edfa837b.png">     
 
 * * *
 
 ### 3. 테이블 로우 삭제 interactive 구현
 
-<img width="460" alt="스크린샷 2020-05-15 오후 11 47 24" src="https://user-images.githubusercontent.com/58107794/82063831-f2f59480-9706-11ea-8a84-259f8ebbb930.png">
+<img width="460" alt="스크린샷 2020-05-15 오후 11 47 24" src="https://user-images.githubusercontent.com/58107794/82063831-f2f59480-9706-11ea-8a84-259f8ebbb930.png">    
 
 > Problem 1
 
 - 내 프로필까지도 삭제된다는 문제 발생.
-  - 내 프로필 <-> 친구목록은 다른 기능이다. -> 애초에 테이블 셀 분리하는 것이 더 확장성있으며, 효율적임.
+  - 내 프로필 <-> 친구목록은 다른 기능이다. -> 애초에 테이블 셀 분리하는 것이 더 확장성있으며, 효율적임.    
 
 * * *
 
 ### 4. 세팅 메뉴 ActionSheet 구현
 
-<img width="458" alt="스크린샷 2020-05-15 오후 11 48 25" src="https://user-images.githubusercontent.com/58107794/82063845-f721b200-9706-11ea-856a-3eed0b8ecb50.png">
+<img width="458" alt="스크린샷 2020-05-15 오후 11 48 25" src="https://user-images.githubusercontent.com/58107794/82063845-f721b200-9706-11ea-856a-3eed0b8ecb50.png">     
 
 * * *
 
