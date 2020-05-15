@@ -110,7 +110,17 @@
 
 > Solution 4
 
-<img width="450" alt="스크린샷 2020-05-15 오후 11 47 48" src="https://user-images.githubusercontent.com/58107794/82063835-f4bf5800-9706-11ea-9b65-a796edfa837b.png">     
+<img width="450" alt="스크린샷 2020-05-15 오후 11 47 48" src="https://user-images.githubusercontent.com/58107794/82063835-f4bf5800-9706-11ea-9b65-a796edfa837b.png">  
+
+> Difficulty 5
+
+- **Difficulty 4** 여기서 두번째 섹션은 {indexPath.row+1}부터 시작한다고 인위적으로 지정했더니, 마지막 데이터는 셀 높이가 두번째 섹션이 아닌, 첫번째 섹션 높이였음.
+
+> Solution 5
+
+<img width="428" alt="스크린샷 2020-05-16 오전 12 16 30" src="https://user-images.githubusercontent.com/58107794/82066848-e7a46800-970a-11ea-9f87-e8cb38cd7b01.png">
+
+- 원래는 if...else 구문이었는데, 그러다보니 마지막 데이터는 else에 포함되는 것 같아, 분기문을 다시 설정해줬음.
 
 * * *
 
