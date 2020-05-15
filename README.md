@@ -79,7 +79,8 @@
 > Diffculty 1
 - 2.3 섹션 분리하기 -> 구분선 추가 문제
 > Solution 1
-<img width="450" alt="스크린샷 2020-05-15 오후 11 47 48" src="https://user-images.githubusercontent.com/58107794/82063835-f4bf5800-9706-11ea-9b65-a796edfa837b.png">
+
+<img width="454" alt="스크린샷 2020-05-15 오후 11 47 36" src="https://user-images.githubusercontent.com/58107794/82063832-f426c180-9706-11ea-8efe-60441aad2d5c.png">
 
 > Diffculty 2
 - 2.1.2 친구 데이터 변수 설정, 어떻게 불러오는지 모르겠음.
