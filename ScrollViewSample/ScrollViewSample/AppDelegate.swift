@@ -11,10 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+// MARK: https://www.peterwitham.com/swift-archives/how-to-change-the-ios-tab-bar-colors/
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UITabBar.appearance().tintColor = UIColor.black
+        UITabBar.appearance().unselectedItemTintColor = UIColor.black
+    
         return true
     }
 
