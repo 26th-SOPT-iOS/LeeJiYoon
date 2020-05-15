@@ -11,7 +11,8 @@
 |[2차 과제1](https://github.com/26th-SOPT-iOS/LeeJiYoon/tree/master/ScrollViewSample)|Zeplin 참고 로그인 화면 & 스크롤뷰|2020.05.08||
 |[2차 과제2](https://github.com/26th-SOPT-iOS/LeeJiYoon/tree/master/Calculator%20Sample)|autoLayout 활용 계산기 화면|2020.05.08||
 |2차 도전과제|Interactive UI|2020.05.08||
-|3차 세미나||||
+|[3차 세미나](https://github.com/26th-SOPT-iOS/LeeJiYoon/tree/master/3rd%20Seminar)|PickerView, CollectionView, TableView|2020.05.09||
+|[3차 과제](https://github.com/26th-SOPT-iOS/LeeJiYoon/tree/master/ScrollViewSample)|Zeplin 참고 TableView 활용 카카오톡 친구목록, 삭제, 설정 Action Sheet 구현|2020.05.15||
 
 <br/>
 <br/>
