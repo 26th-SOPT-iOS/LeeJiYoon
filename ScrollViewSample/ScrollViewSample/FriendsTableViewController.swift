@@ -10,6 +10,14 @@ import UIKit
 
 class FriendsTableViewController: UIViewController {
     
+    @IBOutlet weak var logoutButton: UIButton!
+    
+    @IBAction func doLogout(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+        // 화면 dismiss
+    }
+    
+    
     private var friendsList: [FriendsData] = []
     // ActhionSheet 활용해서 팝업 뷰 만들 수 있음.
     @IBAction func settingActionSheet(_ sender: Any) {
