@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
     
+    @IBOutlet weak var autoLoginSwitch: UISwitch!
+
     @IBAction func doLogin(_ sender: Any) {
         guard let inputID = idTextField.text
             else {
@@ -26,8 +28,25 @@ class ViewController: UIViewController {
         guard let inputPWD = pwTextField.text
             else{
                 return
-                
         }
+                if autoLoginSwitch .isOn{
+                    let dataSave = UserDefaults.standard
+                    dataSave.setValue(inputID, forKey: "savedID")
+                    dataSave.setValue(inputPWD, forKey: "savedPWD")
+                    
+                    UserDefaults.standard.synchronize()
+                    
+                } else {
+                    let dataSave = UserDefaults.standard
+                    dataSave.setValue(nil, forKey: "savedID")
+                    dataSave.setValue(nil, forKey: "savedPWD")
+                    
+                    UserDefaults.standard.synchronize()
+                    
+                    
+        }
+
+    
         LoginService.shared.login(id: inputID, pwd: inputPWD) {
             networkResult in
             switch networkResult {
@@ -68,7 +87,8 @@ class ViewController: UIViewController {
         PasswordView.layer.masksToBounds = true
         LoginButton.layer.cornerRadius = 24
         LoginButton.layer.masksToBounds = true
-
+        
+        autoLoginSwitch.transform = CGAffineTransform(scaleX: 0.75, y: 0.75)
     
         // Do any additional setup after loading the view.
     }

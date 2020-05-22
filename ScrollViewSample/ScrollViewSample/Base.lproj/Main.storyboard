@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="oRF-vD-MaF">
-                                <rect key="frame" x="77" y="530" width="222" height="28.666666666666629"/>
+                                <rect key="frame" x="77" y="558" width="222" height="28.666666666666629"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아직 회원이 아니신가요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-sX-XzU">
                                         <rect key="frame" x="0.0" y="0.0" width="136" height="28.666666666666668"/>
@@ -91,7 +91,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="회원가입 하기">
                                                     <attributes>
-                                                        <font key="NSFont" metaFont="menu" size="14"/>
+                                                        <font key="NSFont" metaFont="system" size="14"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         <integer key="NSUnderline" value="1"/>
                                                     </attributes>
@@ -104,24 +104,40 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AsZ-mM-DZr">
+                                <rect key="frame" x="281" y="524" width="49" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자동로그인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-Cg-aes">
+                                <rect key="frame" x="215.33333333333334" y="529" width="60.666666666666657" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6ep-zW-ffm" secondAttribute="trailing" constant="37" id="0dk-sO-Kpf"/>
-                            <constraint firstItem="oRF-vD-MaF" firstAttribute="top" secondItem="6ep-zW-ffm" secondAttribute="bottom" constant="17" id="2cF-r2-wM9"/>
+                            <constraint firstItem="oRF-vD-MaF" firstAttribute="top" secondItem="tPH-Cg-aes" secondAttribute="bottom" constant="8" id="1NY-tK-iAH"/>
+                            <constraint firstItem="oRF-vD-MaF" firstAttribute="top" secondItem="6ep-zW-ffm" secondAttribute="bottom" constant="45" id="2cF-r2-wM9"/>
                             <constraint firstItem="6ep-zW-ffm" firstAttribute="top" secondItem="8kc-u7-klS" secondAttribute="bottom" constant="39" id="2si-aN-cnO"/>
                             <constraint firstItem="gpJ-H2-4nF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="8Sa-T9-jaW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oRF-vD-MaF" secondAttribute="trailing" constant="76" id="CAb-L3-mdp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ldW-6A-gpz" secondAttribute="trailing" constant="86" id="Fz7-rX-bMb"/>
+                            <constraint firstItem="AsZ-mM-DZr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="281" id="GcP-t0-cH5"/>
                             <constraint firstItem="oRF-vD-MaF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="GfJ-5m-kfk"/>
                             <constraint firstItem="ldW-6A-gpz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="HBV-M6-clh"/>
+                            <constraint firstItem="AsZ-mM-DZr" firstAttribute="top" secondItem="6ep-zW-ffm" secondAttribute="bottom" constant="11" id="Kke-2y-gPY"/>
                             <constraint firstItem="6ep-zW-ffm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="L8J-Db-TIe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8kc-u7-klS" secondAttribute="trailing" constant="37" id="OmZ-Ey-dyd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gpJ-H2-4nF" secondAttribute="trailing" constant="36" id="Qsy-at-smt"/>
                             <constraint firstItem="6ep-zW-ffm" firstAttribute="trailing" secondItem="8kc-u7-klS" secondAttribute="trailing" id="ZBq-vr-emP"/>
+                            <constraint firstItem="tPH-Cg-aes" firstAttribute="top" secondItem="6ep-zW-ffm" secondAttribute="bottom" constant="16" id="b3u-rn-ecH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AsZ-mM-DZr" secondAttribute="trailing" constant="47" id="c1b-cU-Q2j"/>
+                            <constraint firstItem="oRF-vD-MaF" firstAttribute="top" secondItem="AsZ-mM-DZr" secondAttribute="bottom" constant="3" id="dDa-c2-v24"/>
                             <constraint firstItem="8kc-u7-klS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="e8y-Zc-6yn"/>
                             <constraint firstItem="gpJ-H2-4nF" firstAttribute="top" secondItem="ldW-6A-gpz" secondAttribute="bottom" constant="58" id="q93-oa-a95"/>
                             <constraint firstItem="8kc-u7-klS" firstAttribute="top" secondItem="gpJ-H2-4nF" secondAttribute="bottom" constant="18" id="vJh-Sc-CAd"/>
+                            <constraint firstItem="AsZ-mM-DZr" firstAttribute="leading" secondItem="tPH-Cg-aes" secondAttribute="trailing" constant="5" id="ydW-7L-x3u"/>
                             <constraint firstItem="ldW-6A-gpz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="ynw-vS-Vp4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -131,6 +147,7 @@
                         <outlet property="IDView" destination="gpJ-H2-4nF" id="p6z-wW-fGJ"/>
                         <outlet property="LoginButton" destination="6ep-zW-ffm" id="Wgt-QU-0aQ"/>
                         <outlet property="PasswordView" destination="8kc-u7-klS" id="Tj2-1T-7yK"/>
+                        <outlet property="autoLoginSwitch" destination="AsZ-mM-DZr" id="emQ-5q-u5J"/>
                         <outlet property="idTextField" destination="eLc-kQ-FWj" id="n8v-4L-gV6"/>
                         <outlet property="pwTextField" destination="6Il-SV-bK6" id="Qfk-zc-W3S"/>
                     </connections>
