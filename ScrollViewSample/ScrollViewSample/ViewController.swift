@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                     
                     
         }
-
+ // 연결해주기.
     
         LoginService.shared.login(id: inputID, pwd: inputPWD) {
             networkResult in
