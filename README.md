@@ -223,9 +223,9 @@ case .success(let token):
 
 - Postman에서는 회원가입 성공 시 (Status 204, Success true), 중복 ID로 회원가입 실패 시 (Status 200, Success fail)을 줬다. 그래서 코드를 이렇게 써줬더니 통신이 안됐음!! :anguished:
 
-![스크린샷 2020-05-22 오후 11.20.38](./Users/jeanne/workspace/LeeJiYoon/READMEimages/스크린샷 2020-05-22 오후 11.20.38.png
+![스크린샷 2020-05-22 오후 11.20.38](./READMEimages/스크린샷 2020-05-22 오후 11.20.38.png
 )
-![스크린샷 2020-05-22 오후 11.20.22](./Users/jeanne/workspace/LeeJiYoon/READMEimages/스크린샷 2020-05-22 오후 11.20.22.png)
+![스크린샷 2020-05-22 오후 11.20.22](./READMEimages/스크린샷 2020-05-22 오후 11.20.22.png)
 
 ``` SWift
 
@@ -274,7 +274,7 @@ case .success(let token):
 
 - 과제물이 잘못 나갔고, 원래는 홈 화면이 친구목록이 아니라, 솝트 이미지 화면이었다는 걸 이제 알았다. 하지만 로그아웃은 그냥 나의 홈화면인 친구 목록에 구현했음... ㅎ 죄송함다.
 
-![스크린샷 2020-05-22 오후 11.33.31](./Users/jeanne/workspace/LeeJiYoon/READMEimages/스크린샷 2020-05-22 오후 11.33.31.png)
+![스크린샷 2020-05-22 오후 11.33.31](./READMEimages/스크린샷 2020-05-22 오후 11.33.31.png)
 
 :arrow_forward: 이것도 나름 예쁘지 않나요? 하하 :sweat_smile:
 
@@ -297,7 +297,7 @@ case .success(let token):
 
 - 이것도 스위치가 아니라, 체크박스인 줄 몰랐다. 다시 수정하는 걸로.. 일단 만들었다.
 
-![스크린샷 2020-05-22 오후 11.33.51](./Users/jeanne/workspace/LeeJiYoon/READMEimages/스크린샷 2020-05-22 오후 11.33.51.png)
+![스크린샷 2020-05-22 오후 11.33.51](./READMEimages/스크린샷 2020-05-22 오후 11.33.51.png)
 
 ``` SWift
 
