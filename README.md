@@ -223,8 +223,8 @@ case .success(let token):
 
 - Postman에서는 회원가입 성공 시 (Status 204, Success true), 중복 ID로 회원가입 실패 시 (Status 200, Success fail)을 줬다. 그래서 코드를 이렇게 써줬더니 통신이 안됐음!! :anguished:
 
-<img src="./READMEimages/스크린샷 2020-05-22 오후 11.20.38.png" alt = "스크린샷 2020-05-22 오후 11.20.38" width="40%" />
-<img src="./READMEimages/스크린샷 2020-05-22 오후 11.20.22.png" alt = "스크린샷 2020-05-22 오후 11.20.22" width="40%" />
+<img width="568" alt="스크린샷 2020-05-22 오후 11 20 22" src="https://user-images.githubusercontent.com/58107794/82683920-c0aae080-9c8c-11ea-9396-f9abf3e1fe0a.png">
+<img width="577" alt="스크린샷 2020-05-22 오후 11 20 38" src="https://user-images.githubusercontent.com/58107794/82683923-c3a5d100-9c8c-11ea-89fa-46785294d7f0.png">
 
 
 
@@ -275,7 +275,7 @@ case .success(let token):
 
 - 과제물이 잘못 나갔고, 원래는 홈 화면이 친구목록이 아니라, 솝트 이미지 화면이었다는 걸 이제 알았다. 하지만 로그아웃은 그냥 나의 홈화면인 친구 목록에 구현했음... ㅎ 죄송함다.
 
-<img src="./READMEimages/스크린샷 2020-05-22 오후 11.33.31.png" alt = "스크린샷 2020-05-22 오후 11.33.31" width="40%" />
+<img width="484" alt="스크린샷 2020-05-22 오후 11 33 31" src="https://user-images.githubusercontent.com/58107794/82683927-c43e6780-9c8c-11ea-8a9b-0180d2ce3df7.png">
 
 :arrow_forward: 이것도 나름 예쁘지 않나요? 하하 :sweat_smile:
 
@@ -298,7 +298,7 @@ case .success(let token):
 
 - 이것도 스위치가 아니라, 체크박스인 줄 몰랐다. 다시 수정하는 걸로.. 일단 만들었다.
 
-<img src="./READMEimages/스크린샷 2020-05-22 오후 11.33.51.png" alt = "스크린샷 2020-05-22 오후 11.33.51" width="40%" />
+<img width="484" alt="스크린샷 2020-05-22 오후 11 33 51" src="https://user-images.githubusercontent.com/58107794/82683931-c56f9480-9c8c-11ea-9aa4-e7d2459dca59.png">
 
 
 ``` SWift
