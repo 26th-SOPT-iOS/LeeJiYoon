@@ -91,7 +91,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="회원가입 하기">
                                                     <attributes>
-                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                                        <font key="NSFont" metaFont="menu" size="14"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         <integer key="NSUnderline" value="1"/>
                                                     </attributes>
@@ -106,6 +106,9 @@
                             </stackView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AsZ-mM-DZr">
                                 <rect key="frame" x="281" y="524" width="49" height="31"/>
+                                <connections>
+                                    <action selector="autoLoginSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="A9G-Gt-BJn"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자동로그인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-Cg-aes">
                                 <rect key="frame" x="215.33333333333334" y="529" width="60.666666666666657" height="21"/>
@@ -784,6 +787,13 @@
                                                         <constraint firstAttribute="height" constant="60" id="apd-OM-OSH"/>
                                                     </constraints>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T36-sr-8f7">
+                                                    <rect key="frame" x="15" y="11" width="66" height="72"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <action selector="setProfile:" destination="JOy-Li-aU8" eventType="touchUpInside" id="spx-UR-MSi"/>
+                                                    </connections>
+                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSP-Dv-7zW">
                                                     <rect key="frame" x="81" y="37" width="89" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -799,10 +809,14 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="YYH-Pz-2cI" firstAttribute="leading" secondItem="PET-hr-asp" secondAttribute="leading" constant="16" id="E4I-Kl-BMV"/>
+                                                <constraint firstItem="T36-sr-8f7" firstAttribute="leading" secondItem="PET-hr-asp" secondAttribute="leadingMargin" id="GNf-Cv-Xz7"/>
                                                 <constraint firstItem="YYH-Pz-2cI" firstAttribute="top" secondItem="PET-hr-asp" secondAttribute="top" constant="16" id="LvD-ws-3hL"/>
+                                                <constraint firstItem="T36-sr-8f7" firstAttribute="top" secondItem="PET-hr-asp" secondAttribute="topMargin" id="Sml-KG-Vp8"/>
                                                 <constraint firstAttribute="trailing" secondItem="kSP-Dv-7zW" secondAttribute="trailing" constant="205" id="Yy8-8d-xhB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="T36-sr-8f7" secondAttribute="bottom" id="ZPw-91-7gI"/>
                                                 <constraint firstAttribute="trailing" secondItem="Z2e-cd-yHd" secondAttribute="trailing" constant="27" id="bIz-Kw-rvI"/>
                                                 <constraint firstItem="kSP-Dv-7zW" firstAttribute="centerY" secondItem="YYH-Pz-2cI" secondAttribute="centerY" id="fqe-S5-9q4"/>
+                                                <constraint firstItem="kSP-Dv-7zW" firstAttribute="leading" secondItem="T36-sr-8f7" secondAttribute="trailing" id="gvD-E7-Fmg"/>
                                                 <constraint firstAttribute="bottom" secondItem="YYH-Pz-2cI" secondAttribute="bottom" constant="16" id="kwH-ie-j1I"/>
                                                 <constraint firstItem="Z2e-cd-yHd" firstAttribute="centerY" secondItem="kSP-Dv-7zW" secondAttribute="centerY" id="t0d-Ag-qFK"/>
                                                 <constraint firstItem="kSP-Dv-7zW" firstAttribute="leading" secondItem="YYH-Pz-2cI" secondAttribute="trailing" constant="5" id="wET-Wn-dHY"/>
@@ -811,6 +825,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="nameLabel" destination="kSP-Dv-7zW" id="RN7-3l-N2c"/>
+                                            <outlet property="profileBtn" destination="T36-sr-8f7" id="6Bd-tD-did"/>
                                             <outlet property="profileImage" destination="YYH-Pz-2cI" id="rVV-tm-Z21"/>
                                             <outlet property="statusMessageLabel" destination="Z2e-cd-yHd" id="QZB-sc-YxY"/>
                                         </connections>

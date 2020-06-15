@@ -15,6 +15,16 @@ class FriendsTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var statusMessageLabel: UILabel!
     
+    @IBOutlet weak var profileBtn: UIButton!
+    
+    var delegate: ButtonDelegate?
+    var indexPath: IndexPath?
+    
+    @IBAction func setProfile(_ sender: Any) {
+        delegate?.onClickCellButton(in: indexPath!.row)
+    }
+    
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,3 +43,14 @@ class FriendsTableViewCell: UITableViewCell {
         statusMessageLabel.text = friendsList.statusMessage
     }
 }
+
+protocol ButtonDelegate {
+    func onClickCellButton(in index: Int)
+    }
+
+
+
+
+
+
+

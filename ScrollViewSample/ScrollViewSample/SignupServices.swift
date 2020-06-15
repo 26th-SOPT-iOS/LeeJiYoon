@@ -49,12 +49,11 @@ struct SignupServices {
         }
     }
     private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
+        guard let statusCode = StatusCode(rawValue: statusCode) else { return .networkFail }
         switch statusCode {
-            case 200: return isSignup(by: data)
-            case 400: return .pathErr
-            case 500: return .serverErr
-            default: return .networkFail
-            // .failure인 경우엔 escape로 넘어와서 networkFail을 받아올 수 없는 상황임.
+            case .success: return isSignup(by: data)
+            case .pathError: return .pathErr
+            case .serverError: return .serverErr
         }
     }
     
@@ -74,11 +73,7 @@ struct SignupServices {
             return .requestErr(decodedData.message)
             
         }
-        // guard let tokenData = // decodedData.data else {
-            ///return .requestErr(decodedData.message)
-        ///return .success(tokenData.jwt)
-        
-        // 응답해야하는 게 무조건 있어야 한다. Why? 함수(guard let)를 만들었으니까, 리턴 값이 반드시 있어야함.
+
     }
 
 }

@@ -40,6 +40,9 @@
 		D719A13B246FBF0C004ED0FD /* LoginServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D719A13A246FBF0C004ED0FD /* LoginServices.swift */; };
 		D719A13D246FD156004ED0FD /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D719A13C246FD156004ED0FD /* SignupData.swift */; };
 		D719A13F246FD523004ED0FD /* SignupServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D719A13E246FD523004ED0FD /* SignupServices.swift */; };
+		D72F66B02494CD6D0078E8A8 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F66AF2494CD6D0078E8A8 /* ProfileData.swift */; };
+		D72F66B22494CE2D0078E8A8 /* UploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F66B12494CE2D0078E8A8 /* UploadService.swift */; };
+		D72F66B42494D2B70078E8A8 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F66B32494D2B70078E8A8 /* UIImageView+Extensions.swift */; };
 		D75A77E9246CE23B006A5203 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A77E8246CE23B006A5203 /* FriendsList.swift */; };
 		D7633267245C1B51002EF887 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7633266245C1B51002EF887 /* ScrollViewController.swift */; };
 		D763653B2468365D00119CE6 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763653A2468365D00119CE6 /* FriendsTableViewController.swift */; };
@@ -57,6 +60,8 @@
 		D7700F27245AA1000085141C /* soptLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7700F24245AA1000085141C /* soptLogo.png */; };
 		D7700F28245AA1000085141C /* soptLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7700F25245AA1000085141C /* soptLogo@3x.png */; };
 		D779DF1824655C3D00931CE1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779DF1724655C3D00931CE1 /* SignUpViewController.swift */; };
+		D7B1AEE6249383B200502C52 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B1AEE5249383B200502C52 /* TableSection.swift */; };
+		D7E8EF3624924825009F7732 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8EF3524924825009F7732 /* StatusCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +119,9 @@
 		D719A13A246FBF0C004ED0FD /* LoginServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServices.swift; sourceTree = "<group>"; };
 		D719A13C246FD156004ED0FD /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
 		D719A13E246FD523004ED0FD /* SignupServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupServices.swift; sourceTree = "<group>"; };
+		D72F66AF2494CD6D0078E8A8 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		D72F66B12494CE2D0078E8A8 /* UploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadService.swift; sourceTree = "<group>"; };
+		D72F66B32494D2B70078E8A8 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		D75A77E8246CE23B006A5203 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
 		D7633266245C1B51002EF887 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		D763653A2468365D00119CE6 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +145,8 @@
 		D7700F24245AA1000085141C /* soptLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soptLogo.png; sourceTree = "<group>"; };
 		D7700F25245AA1000085141C /* soptLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soptLogo@3x.png"; sourceTree = "<group>"; };
 		D779DF1724655C3D00931CE1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D7B1AEE5249383B200502C52 /* TableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
+		D7E8EF3524924825009F7732 /* StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
 		F161BC3EEC4C8E07DCA0F86E /* Pods_ScrollViewSample_ScrollViewSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewSample_ScrollViewSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CB2211A227AF036682ACEC /* Pods-ScrollViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewSample.release.xcconfig"; path = "Target Support Files/Pods-ScrollViewSample/Pods-ScrollViewSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,9 +195,13 @@
 				D719A131246FBD44004ED0FD /* APIConstants.swift */,
 				D719A136246FBE42004ED0FD /* SigninData.swift */,
 				D719A13C246FD156004ED0FD /* SignupData.swift */,
+				D72F66AF2494CD6D0078E8A8 /* ProfileData.swift */,
 				D719A138246FBEA5004ED0FD /* NetworkResults.swift */,
 				D719A13A246FBF0C004ED0FD /* LoginServices.swift */,
 				D719A13E246FD523004ED0FD /* SignupServices.swift */,
+				D7E8EF3524924825009F7732 /* StatusCode.swift */,
+				D72F66B12494CE2D0078E8A8 /* UploadService.swift */,
+				D72F66B32494D2B70078E8A8 /* UIImageView+Extensions.swift */,
 			);
 			name = APIServices;
 			sourceTree = "<group>";
@@ -207,7 +221,10 @@
 			children = (
 				D7700EF3245AA02B0085141C /* AppDelegate.swift */,
 				D7700EF5245AA02B0085141C /* SceneDelegate.swift */,
-				D7E972A8247417F400B242F2 /* ViewControllers */,
+				D75A77E8246CE23B006A5203 /* FriendsList.swift */,
+				D763653E24683F0300119CE6 /* FriendsData.swift */,
+				D7B1AEE5249383B200502C52 /* TableSection.swift */,
+				D7E972A8247417F400B242F2 /* Views */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -297,18 +314,24 @@
 			name = ImageSources;
 			sourceTree = "<group>";
 		};
-		D7E972A8247417F400B242F2 /* ViewControllers */ = {
+		D7B1AEE2249358BC00502C52 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D763653C246839EE00119CE6 /* FriendsTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D7E972A8247417F400B242F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				D7700EF7245AA02B0085141C /* ViewController.swift */,
 				D779DF1724655C3D00931CE1 /* SignUpViewController.swift */,
 				D7633266245C1B51002EF887 /* ScrollViewController.swift */,
 				D763653A2468365D00119CE6 /* FriendsTableViewController.swift */,
-				D75A77E8246CE23B006A5203 /* FriendsList.swift */,
-				D763653C246839EE00119CE6 /* FriendsTableViewCell.swift */,
-				D763653E24683F0300119CE6 /* FriendsData.swift */,
+				D7B1AEE2249358BC00502C52 /* Cells */,
 			);
-			name = ViewControllers;
+			name = Views;
 			sourceTree = "<group>";
 		};
 		D7E972A92474181100B242F2 /* Storyboards */ = {
@@ -601,14 +624,19 @@
 			files = (
 				D7700EF8245AA02B0085141C /* ViewController.swift in Sources */,
 				D719A13D246FD156004ED0FD /* SignupData.swift in Sources */,
+				D7B1AEE6249383B200502C52 /* TableSection.swift in Sources */,
 				D763653F24683F0300119CE6 /* FriendsData.swift in Sources */,
 				D7700EF4245AA02B0085141C /* AppDelegate.swift in Sources */,
 				D719A13B246FBF0C004ED0FD /* LoginServices.swift in Sources */,
 				D763653B2468365D00119CE6 /* FriendsTableViewController.swift in Sources */,
+				D72F66B22494CE2D0078E8A8 /* UploadService.swift in Sources */,
 				D763653D246839EE00119CE6 /* FriendsTableViewCell.swift in Sources */,
+				D72F66B02494CD6D0078E8A8 /* ProfileData.swift in Sources */,
 				D75A77E9246CE23B006A5203 /* FriendsList.swift in Sources */,
 				D719A137246FBE42004ED0FD /* SigninData.swift in Sources */,
 				D719A139246FBEA5004ED0FD /* NetworkResults.swift in Sources */,
+				D7E8EF3624924825009F7732 /* StatusCode.swift in Sources */,
+				D72F66B42494D2B70078E8A8 /* UIImageView+Extensions.swift in Sources */,
 				D719A132246FBD44004ED0FD /* APIConstants.swift in Sources */,
 				D7700EF6245AA02B0085141C /* SceneDelegate.swift in Sources */,
 				D719A13F246FD523004ED0FD /* SignupServices.swift in Sources */,

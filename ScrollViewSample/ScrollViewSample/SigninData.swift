@@ -17,8 +17,9 @@ struct SigininData: Codable {
     enum CodingKeys: String, CodingKey { case status = "status"
         case success = "success"
         case message = "message"
-        case data = "data"
+        case data // 안써도 된다.
         // 이거 처리 제대로 안 해주면 난리남!!!!!!
+        // 케이스와 rawvalue가 다를 때만 저렇게 스트링값을 쓰고 아니면 그냥 안 써도 된다.
     }
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)

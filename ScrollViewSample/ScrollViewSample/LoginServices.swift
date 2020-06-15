@@ -43,11 +43,11 @@ struct LoginService {
         }
     }
     private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
+        guard let statusCode = StatusCode(rawValue: statusCode) else { return .networkFail }
         switch statusCode {
-            case 200: return isUser(by: data)
-            case 400: return .pathErr
-            case 500: return .serverErr
-            default: return .networkFail
+        case .success: return isUser(by: data)
+        case .pathError: return .pathErr
+        case .serverError: return .serverErr
             // .failure인 경우엔 escapefh 넘어와서 networkFail을 받아올 수 없는 상황임.
         }
     }
@@ -65,3 +65,4 @@ struct LoginService {
     }
     
 }
+// tokenData는 난수개념. 로그인할 때 서버가 보내주는 보안값 같은것.. 매번 바뀐다. 그런데 회원가입할 땐 그게 필요하지 않으니 안 쓰는 것!
